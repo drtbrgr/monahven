@@ -2,11 +2,18 @@
 wip wip wip wip bad bad bad bad
 
 
-scuffed install guide until i fix the list and figure out how to update
-- clean install of skyrim special or anniversary from steam, probably launch once
-- downgrade to 1.6.1130 with reliquary
-- download the [wabbajack client](https://www.wabbajack.org/) then try opening [my .wabbajack file](https://github.com/drtbrgr/monahven/releases/download/0.1/Default.wabbajack) after signing in with a nexus premium account
-- hang tight while i eat your hard drive (215gb)
-- ???
-- in the MO2 client, open the 'Settings' divider near the end, ctrl click the '2560x1600' mod, open displaytweaks.ini, and change the resolution line to match ur screen, haha oopsie
-- default keybinds, edit to your preference. 'x' will show/hide compass + more
+Requirements:
+- Around 220GB+ of drive space.
+- Windows only for now.
+- Skyrim Special Edition or Anniversary Edition from Steam only
+
+Install:
+- Get a clean install of the latest version of Skyrim. Ensure your game's install directory isn't nested within Program Files or Program Files x86 to avoid issues.
+- Download the [Wabbajack client](https://www.wabbajack.org/), then try opening [my .wabbajack file](https://github.com/drtbrgr/monahven/releases/download/0.2/MONAHVEN.wabbajack) after signing in with a [Nexus Premium](https://www.nexusmods.com/premium) account. Select a path to install it to.
+- I need to check the mod requirements again, but some versions of [dotnet](https://dotnet.microsoft.com/en-us/download/dotnet) will be needed. If you want to be sure you have the right one, you can install 6 and 8, and maybe 9 and 11 too, until I figure my shit out.
+- Keep Wabbajack's [official Troubleshooting FAQ](https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html) in a browser tab to resolve errors if they arise.
+  - Special Edition owners will likely need to follow the ['Unable to download curios files'](https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#unable-to-download-curios-files) section.
+  - All players will want to adjust their pagefile setting to 20-40GB to reduce crashing by following [these instructions](https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#some-modlists-require-a-higher-pagefile).
+- Once installed, open MO2 and expand the 'Settings' tab in the modlist. Select your screen resolution.
+- Launch by selecting 'MONAHVEN' in the executable dropdown and pressing 'Run'. First time launch will take more time.
+- Bindings are default, X to reveal compass. Audio settings might need adjustment. 
